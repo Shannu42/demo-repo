@@ -1,0 +1,7 @@
+s=open("sample.csv","w")
+print(s.mode)
+print(s.name)
+print("file created successfully")
+s.write("1,2,3,4,5")
+s.close()
+print(s.closed)

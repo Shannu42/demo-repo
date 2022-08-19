@@ -1,0 +1,6 @@
+file=open("swap.txt","w")
+file.write("abc")
+file.close()
+file1=open("swapped.txt","w")
+file1.write("123")
+file1.close()
